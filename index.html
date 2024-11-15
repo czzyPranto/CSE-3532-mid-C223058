@@ -1,201 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>paints</title>
-    
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
+    
 </head>
+
 <body>
     <header class="bg-[#FEEDBC] px-6 lg:px-36 py-16">
-        <nav class="flex justify-center items-center bg-[#fff] rounded-2xl">
-            <img src="paint-logo.png" alt="" >
+        <nav class="flex justify-start overflow-hidden lg:justify-center items-center bg-[#fff] rounded-full ">
+            <img src="paint-logo.png" alt="">
         </nav>
         <div class="hero py-16">
-            <div class="hero-content flex-col lg:flex-row-reverse gap-40">
-              <img
-                src="cover-paint.png"
-                class="w-auto md:w-96"/>
-              <div class="space-y-5">
-                <p>risus praesent vulputate.</p>
-                <h1 class="text-5xl font-bold ">Cursus Integer</h1>
-                <h1 class="text-5xl font-bold bb">Consequat Tristique.</h1>
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
-                    <div class="flex justify-start items-center gap-2 rounded-3xl bg-[#fff] px-5 py-3 w-auto">
-                        <img src="icon-tick.png" alt="">
-                        <h1>Cursus Integer</h1>
+            <div class="hero-content flex-col lg:flex-row-reverse gap-10">
+                <img src="cover-paint.png" class="w-auto md:w-96" />
+                <div class="space-y-5">
+                    <p class="text-[#F9B900] text-base font-bold uppercase">risus praesent vulputate.</p>
+                    <h1 class="text-balance text-4xl text-[#262626] font-bold ">Cursus Integerfont<br> Consequat
+                        Tristique.</h1>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                        <div class="flex justify-start items-center gap-2 rounded-3xl bg-[#fff] px-5 py-3 w-auto">
+                            <img src="icon-tick.png" alt="">
+                            <h1 class="text-[#262626] font-semibold text-base">Cursus Integer</h1>
+                        </div>
+                        <div class="flex justify-start items-center gap-2 rounded-3xl bg-[#fff] px-5 py-3 w-auto">
+                            <img src="icon-tick.png" alt="">
+                            <h1 class="text-[#262626] font-semibold text-base">Integer Consequat</h1>
+                        </div>
+                        <div class="flex justify-start items-center gap-2 rounded-3xl bg-[#fff] px-5 py-3 w-auto">
+                            <img src="icon-tick.png" alt="">
+                            <h1 class="text-[#262626] font-semibold text-base text-balanced ">Tellus Euismod
+                                Pellentesque</h1>
+                        </div>
+                        <div class="flex justify-start items-center gap-2 rounded-3xl bg-[#fff] px-5 py-3  w-auto">
+                            <img src="icon-tick.png" alt="">
+                            <h1 class="text-[#262626] font-semibold text-base">Aliquot Tristique</h1>
+                        </div>
                     </div>
-                    <div class="flex justify-start items-center gap-2 rounded-3xl bg-[#fff] px-5 py-3 w-auto">
-                        <img src="icon-tick.png" alt="">
-                        <h1>Integer Consequat</h1>
-                    </div>
-                    <div class="flex justify-start items-center gap-2 rounded-3xl bg-[#fff] px-5 py-3 w-auto">
-                        <img src=icon-tick.png" alt="">
-                        <h1>Tellus Euismod Pellentesque</h1>
-                    </div>
-                    <div class="flex justify-start items-center gap-2 rounded-3xl bg-[#fff] px-5 py-3  w-auto">
-                        <img src="icon-tick.png" alt="">
-                        <h1>Aliquot Tristique</h1>
-                    </div>
+                    <button
+                        class="btn bg-[#F9B800] text-black flex items-center justify-between rounded-full font-semibold w-[320px] lg:px-[50px] lg:px-[22px]">
+                        Lorem Ipsum
+                        <img src="right-arrow.png" alt="arrow" class="ml-auto">
+                    </button>
                 </div>
-                <button class="btn bg-[#F9B800]">lorem Ipsum <img src="right-arrow.png" alt=""></button>
-              </div>
             </div>
-          </div>
+        </div>
     </header>
-    <main>
-        <section class="bg-[#262626] px-6 lg:px-36 py-16">
+    <main class="bg-[#262626]">
+        <section class="bg-[#262626] px-6 lg:px-36 py-16 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-11 items-center pb-52">
-                <div>
-                    <p class="text-[#F9B800]">Quisque porttitor vitae vel amet neque scelerisque mattis. Consectetur nibh velit magna consectetur leo. </p>
-                    <h1 class="text-[#fff] font-bold text-[50px]">Cursus Integer Conseq
-                        Aliquam Tristique. </h1>
-                    <button class="btn bg-[#fff]">lorem Ipsum <img src="right-arrow.png" alt=""></button>
+                <div class="grid gap-5">
+                    <p class="text-[#F9B800] text-xl font-normal tracking-tight lg:w-[530px]">
+                        Quisque porttitor vitae vel amet neque scelerisque mattis. Consectetur nibh velit magna
+                        consectetur leo.
+                    </p>
+                    <h1 class="text-white text-4xl font-bold text-balanced lg:w-[530px]">
+                        Cursus Integer Conseq Aliquam Tristique.
+                    </h1>
+                    <button
+                    class="btn bg-[#FFF] hover:bg-[#F9B800] hover:text-white  text-black flex items-center justify-between rounded-full font-semibold w-[320px] lg:px-[50px] lg:px-[22px] mt-[30px]">
+                    Lorem Ipsum
+                    <img src="right-arrow.png" alt="arrow" class="ml-auto">
+                </button>
                 </div>
                 <div class="grid grid-cols-2 grid-rows-2 lg:grid-cols-4 lg:grid-rows-5 gap-8">
+
                     <div class="col-span-2 row-span-2 bg-[#fff] rounded-[60px] px-10 py-10">
                         <img src="icon-join.png" alt="">
-                        <h1 class="text-[72px] font-[700]">1</h1>
-                        <h1 class="text-[1.5rem] font-[700]">Phasellus Vitae</h1>
-                        <p class="text-[20px] font-[600]">Phasellus Vitae</p>
-                        <p class="text-[18px] font-[350]">Porttitor vitae vel amet </p>
+                        <h1 class="text-[72px] text-neutral-800 font-bold">1<span class="text-[#F9B800]">.</span></h1>
+                        <h1 class="text-[1.5rem] text-neutral-800 font-bold">Phasellus Vitae</h1>
+                        <p class="text-[20px] text-neutral-800 font-semibold">Phasellus Vitae</p>
+                        <p class="text-[18px] text-neutral-800 capitalize">Porttitor vitae vel amet </p>
                     </div>
-                    <div>
-                    </div>
+                    <div></div>
                     <div class="col-span-2 row-span-2 bg-[#F9B800] rounded-[60px] px-10 py-10">
                         <img src="icon-inifinity.png" alt="">
-                        <h1 class="text-[72px] font-[700]">2</h1>
-                        <h1 class="text-[1.5rem] font-[700]">Iaculis Magna</h1>
-                        <p class="text-[20px] font-[600]">Porttitor</p>
-                        <p class="text-[18px] font-[350]">neque scelerisque mattis.</p>
+                        <h1 class="text-[72px] text-neutral-800 font-bold"> 2<span class="text-[#FFF]">.</span></h1>
+                        <h1 class="text-[1.5rem] text-neutral-800 font-bold">Iaculis Magna</h1>
+                        <p class="text-[20px] text-neutral-800 font-semibold">Porttitor</p>
+                        <p class="text-[18px] text-neutral-800 capitalize">neque scelerisque mattis.</p>
                     </div>
-                    <div class="col-span-2 row-span-2 bg-[#F9B800] rounded-[60px] px-10 py-10">
+                    <div class="col-span-2 row-span-2 bg-[#FFF] lg:bg-[#F9B800] rounded-[60px] px-10 py-10">
                         <img src="icon-join.png" alt="">
-                        <h1 class="text-[72px] font-[700]">3</h1>
-                        <h1 class="text-[1.5rem] font-[700]">Eleifend Pulvinar</h1>
-                        <p class="text-[20px] font-[600]">Vitae</p>
-                        <p class="text-[18px] font-[350]">Consectetur nibh velit</p>
+                        <h1 class="text-[72px] text-neutral-800 font-bold">3<span class="text-[#F9B800] lg:text-[#FFF]">.</span></h1>
+                        <h1 class="text-[1.5rem] text-neutral-800 font-bold">Eleifend Pulvinar</h1>
+                        <p class="text-[20px] text-neutral-800 font-semibold">Vitae</p>
+                        <p class="text-[18px] text-neutral-800 capitalize">Consectetur nibh velit</p>
                     </div>
-                    <div class="col-span-2 row-span-2 bg-[#fff] rounded-[60px] px-10 py-10">
+                    <div class="col-span-2 row-span-2 bg-[#F9B800] lg:bg-[#fff] rounded-[60px] px-10 py-10">
                         <img src="icon-man-yoga.png" alt="">
-                        <h1 class="text-[72px] font-[700]">4</h1>
-                        <h1 class="text-[1.5rem] font-[700]">Velit Odio Phir</h1>
-                        <p class="text-[20px] font-[600]">Ametneq</p>
-                        <p class="text-[18px] font-[350]">magna consectetur leo.</p>
+                        <h1 class="text-[72px] text-neutral-800 font-bold">4<span class="text-[#FFF] lg:text-[#F9B800]">.</span></h1>
+                        <h1 class="text-[1.5rem] text-neutral-800 font-bold">Velit Odio Phir</h1>
+                        <p class="text-[20px] text-neutral-800 font-semibold">Ametneq</p>
+                        <p class="text-[18px] text-neutral-800 capitalize">magna consectetur leo.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section  class="bg-[#F9B800] px-6 lg:px-36 py-16 relative">
-            <div class=" flex flex-col lg:flex-row justify-center items-center bg-[#fff] gap-20 rounded-3xl px-20 py-10 z-10">
-                <div class="avatar">
-                    <div class="w-72 lg:w-80 rounded-full">
-                      <img src="male-photo.png" />
+
+
+        <section class="relative z-20 bg-[#262626]">
+            <div
+                class="flex flex-col md:flex-row justify-center items-center bg-[#fff] gap-20 rounded-3xl px-10 py-10 shadow-lg absolute bottom-[137px] inset-x-5 lg:inset-x-32 lg:bottom-[173px]">
+                <div class="avatar lg:pl-[0px]">
+                    <div class="w-[272px] lg:w-[350px] rounded-full">
+                        <img src="male-photo.png" />
                     </div>
                 </div>
-                <div class="space-y-5">
-                    <h1 class="text-[50px] font-[700]">
-                        What our customers thought?
-                    </h1>
-                    <p class="text-[30px] font-[400]">
-                        Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum blandit rutrum at mauris enim pulvinar duis etiam duis. 
-                    </p>
-                    <h1 class="text-[1.5rem] font-[700]">
-                        Holly Davidson
-                    </h1>
+                <div class="space-y-5 justify-center lg:text-start flex flex-col items-center lg:items-start">
+                    <h1 class="w-[280px] text-center text-neutral-800 text-3xl font-bold lg:text-[45px] text-balanced lg:text-nowrap ">What our customers thought?</h1>
+                    <p class="text-center lg: text-start text-neutral-800 text-base font-normal text-balanced lg:text-3xl">Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum blandit rutrum at mauris enim pulvinar duis etiam duis. </p>
+                    <h1 class="text-center lg:text-start lg:leading-10 lg:text-2xl text-neutral-800 text-2xl font-bold text-nowrap ">Holly Davidson</h1>
                     <div class="flex justify-start items-center gap-10">
                         <img src="trending-flat-left-black.png" alt="">
                         <img src="trending-flat-right.png" alt="">
                     </div>
                 </div>
             </div>
+            <div class="bg-[#F9B800] w-full h-[513px] mt-[220px] lg:mt-32 lg:h-[400px]"></div>
         </section>
     </main>
-    <!-- <article>
-        <section class="bg-[#262626] px-6 lg:px-36 py-16">
-           <div class="flex flex-col">
-            <div class="color-[#fff] text-center">
-                <h1 class="font-bold  text-4xl lg:text-6xl">Phasellus a vitae iaculis magna.</h1>
-                <h4  class="text-base lg:text-3xl">Phasellus a vitae iaculis magna eleifend pulvinar velit odio.</h4>
-            </div> -->
-            <!-- <div class="text-center bg-white rounded-[60px] flex flex-col lg:pt-22 lg:pl-18 gap-5 lg:w- [-1650px]
-lg:h-[272px] m-[30px]" > 
-                <h3 class="items-start">Quam vehicula faucibus amet lorem. </h3>
-                <p>Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum blandit rutrum at mauris enim pulvinar duis etiam duis. Mauris fermentum praesent tellus euismod.</p>
-            </div>
-            <div></div>
-            <div></div>
-            <div></div>
-           </div>
+
+    <article>
+        <section class="bg-[#262626] px-6 lg:px-36 py-16 ">
+            <div class="flex flex-col gap-[14px] lg:gap-6">
+                <div class="color-[#fff] items-center grid-flow-col">
+                    <h1 class="text-center text-white text-4xl  lg:6xl font-bold ">Phasellus a vitae iaculis magna.</h1>
+                    <h4 class="mt-5 text-center text-white text-base  lg:text-3xl font-normal leading-tight">Phasellus a vitae iaculis magna eleifend pulvinar velit odio.</h4>
+                </div>
+                <div
+                    class="collapse collapse-plus bg-base-200 py-[30px] pl-[30px] pr-[20px] bg-[#fff] rounded-[50px] lg:rounded-[60px] space-y-[14px] lg:space-y-6">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title text-4xl text-[#F9B800]  ">
+                        <p class="text-[#262626] text-xl font-medium">Quam vehicula faucibus amet lorem.</p>
+                    </div>
+
+                    <div class="collapse-content text-[#262626]">
+                        <p>Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum blandit rutrum at
+                            mauris enim pulvinar duis etiam duis. Mauris fermentum praesent tellus euismod.</p>
+                    </div>
+                </div>
+                <div
+                    class="collapse collapse-plus bg-base-200 py-[30px] pl-[30px] pr-[20px] bg-[#fff] rounded-[50px] lg:rounded-[60px] space-y-[14px] lg:space-y-6">
+                    <input type="radio" name="my-accordion-2" checked="checked" />
+                    <div class="collapse-title  text-4xl text-[#F9B800] ">
+                        <p class="text-[#262626] text-xl font-medium">Pellentesque tempus sed phasellus
+                            vel. </p>
+                    </div>
+                    <div class="collapse-content text-[#262626]">
+                        <p>Hello,What's Up my friend?</p>
+                    </div>
+                </div>
+
+                <div
+                    class="collapse collapse-plus bg-base-200 py-[30px] pl-[30px] pr-[20px] bg-[#fff] rounded-[50px] lg:rounded-[60px] space-y-[14px] lg:space-y-6">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-4xl text-[#F9B800] ">
+                        <p class="text-[#262626] text-xl font-medium">Mauris fermentum praesent tellus
+                            euismod pellentesque urna ac massa in. </p>
+                    </div>
+                    <div class="collapse-content text-[#262626]">
+                        <p>How are you doing today?</p>
+                    </div>
+                </div>
+                <div
+                    class="collapse collapse-plus bg-base-200 py-[30px] pl-[30px] pr-[20px] bg-[#fff] rounded-[50px] lg:rounded-[60px] space-y-[14px] lg:space-y-6">
+                    <input type="radio" name="my-accordion-2" />
+                    <div class="collapse-title text-4xl text-[#F9B800] ">
+                        <p class="text-[#262626] text-xl font-medium">Vulputate et vulputate suspendisse
+                            natoque id tellus consectetur pulvinar et. </p>
+                    </div>
+                    <div class="collapse-content">
+                        <p>Like &hearts; Follow </p>
+                    </div>
+                </div>
         </section>
-    </article> -->
-<article>
-    <section class="bg-[#262626] px-6 lg:px-36 py-16">
-        <div class="flex flex-col">
-            <div class="color-[#fff] text-center">
-                <h1 class="font-bold  text-4xl lg:text-6xl">Phasellus a vitae iaculis magna.</h1>
-                <h4  class="text-base lg:text-3xl">Phasellus a vitae iaculis magna eleifend pulvinar velit odio.</h4>
-            </div>
-        <div class="collapse collapse-arrow bg-base-200">
-            <input type="radio" name="my-accordion-2" checked="checked" />
-            <div class="collapse-title text-xl font-medium">Quam vehicula faucibus amet lorem.</div>
-            
-            <div class="collapse-content">
-              <p>Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum blandit rutrum at mauris enim pulvinar duis etiam duis. Mauris fermentum praesent tellus euismod.</p>
-            </div>
-          </div>
-          <div class="collapse collapse-arrow bg-base-200">
-            <input type="radio" name="my-accordion-2" checked="checked" />
-            <div class="collapse-title text-xl font-medium">Pellentesque tempus sed phasellus vel. </div>
-            
-            <div class="collapse-content">
-              <p>Hello,Whats's Up my friend?</p>
-            </div>
-          </div>
-          <div class="collapse collapse-arrow bg-base-200">
-            <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl font-medium">Mauris fermentum praesent tellus euismod pellentesque urna ac massa in. </div>
-            <div class="collapse-content">
-              <p>How are you doing today?</p>
-            </div>
-          </div>
-          <div class="collapse collapse-arrow bg-base-200">
-            <input type="radio" name="my-accordion-2" />
-            <div class="collapse-title text-xl font-medium">Vulputate et vulputate suspendisse natoque id tellus consectetur pulvinar et. </div>
-            <div class="collapse-content">
-              <p>Like &hearts; Follow </p>
-            </div>
-          </div>
-    </section>
-    
-</article>
 
-<footer class="bg-[#FEEDBC]">
-    <section class="p-10">
-        <div class="flex flex-col text-black justify-between gap-10 lg:flex-row ">
-            <div class="text-2xl font-bold leading-tight lg:w-1/2">
-                <h1 >
-                    Vulputate et pulvinar ethre Suspendisse tellus consecteur
-                </h1>
-            </div>
-            <button class="btn bg-[#F9B800] text-black w-[335px] flex items-center justify-center rounded-full font-semibold ">
-                Lorem Ipsum
-                <img src="right-arrow.png" alt="arrow" class="ml-auto">
-            </button>
-        </div>
-       <div class="flex flex-col lg:flex-row mt-10 text-start text-sm lg:gap-[920px] text-black">
-        <p class="">
-            Copyright © 2022 Lorem Ipsum.
-           </p>
-           <p><a href="#" class="underline">Privacy Policy</a> | <a href="#" class="underline">Terms & Conditions</a></p>
-            
-       </div>
-    </section>
-</footer>
+    </article>
 
-       
+    <footer class="bg-[#FEEDBC]">
+        <section class="p-10 lg:h-[300px]">
+            <div class="flex flex-col text-black justify-between gap-10 lg:flex-row mt-10">
+                <div class="text-3xl font-bold leading-tight lg:w-1/2 lg:justify-between">
+                    <h1>
+                        Vulputate et pulvinar ethre Suspendisse tellus consecteur
+                    </h1>
+                </div>
+                <button
+                    class="btn bg-[#F9B800] text-black flex items-center justify-between rounded-full font-semibold lg:w-[320px] lg:px-[50px] lg:px-[22px]">
+                    Lorem Ipsum
+                    <img src="right-arrow.png" alt="arrow" class="ml-auto">
+                </button>
+            </div>
+            <div class="flex flex-col lg:flex-row mt-10 text-start text-sm lg:justify-between lg:mt-[90px] text-black">
+                <p class="text-base lg:text-xl text-nowrap ">
+                    Copyright © 2022 Lorem Ipsum.
+                </p>
+                <p class="text-base text-nowrap lg:text-xl lg:underline">
+                    Privacy Policy | Terms & Conditions
+                </p>
+            </div>
+        </section>
+    </footer>
+
+
 </body>
+
 </html>
